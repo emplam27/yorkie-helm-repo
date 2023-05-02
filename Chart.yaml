@@ -1,0 +1,15 @@
+apiVersion: v2
+name: yorkie-delete-cli-test
+type: application
+icon: https://raw.githubusercontent.com/yorkie-team/yorkie-team.github.io/main/public/favicon-512x512.png
+sources:
+  - https://github.com/yorkie-team/yorkie
+version: 0.0.0
+appVersion: "0.0.0"
+kubeVersion: ">=1.24.0-0"
+
+keywords:
+  - yorkie
+  - cluster
+  - kubernetes
+  - istio
