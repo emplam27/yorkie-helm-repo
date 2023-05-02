@@ -1,9 +1,9 @@
 apiVersion: v2
-name: yorkie-delete-cli-test
+name: delete-cli
 type: application
 icon: https://raw.githubusercontent.com/yorkie-team/yorkie-team.github.io/main/public/favicon-512x512.png
-version: 0.0.0
-appVersion: "0.0.0"
+version: 0.0.1
+appVersion: "0.0.1"
 kubeVersion: ">=1.24.0-0"
 
 keywords:
@@ -11,3 +11,4 @@ keywords:
   - cluster
   - kubernetes
   - istio
+  - delete
