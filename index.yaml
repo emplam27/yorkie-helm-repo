@@ -1,10 +1,10 @@
 apiVersion: v1
 entries:
-  delete-cli:
+  yorkie-cluster:
   - apiVersion: v2
-    appVersion: 0.0.1
-    created: "2023-05-02T19:04:08.347085+09:00"
-    digest: 3d50b5dbc3c0acdcb3bdeee7b1bb502dbb1bfd380dbf471a150be43cbd4e45d6
+    appVersion: 0.0.2
+    created: "2023-05-02T20:32:31.016634+09:00"
+    digest: fb88e778a919e5e57b58dd9ff9b13c8ffb0399333df5dd719c6532eba7f7d84b
     icon: https://raw.githubusercontent.com/yorkie-team/yorkie-team.github.io/main/public/favicon-512x512.png
     keywords:
     - yorkie
@@ -13,28 +13,9 @@ entries:
     - istio
     - delete
     kubeVersion: '>=1.24.0-0'
-    name: delete-cli
+    name: yorkie-cluster
     type: application
     urls:
-    - delete-cli-0.0.1.tgz
-    version: 0.0.1
-  yorkie-delete-cli-test:
-  - apiVersion: v2
-    appVersion: 0.0.0
-    created: "2023-05-02T19:04:08.358601+09:00"
-    digest: b78fa5c8f1d95d21497c8cd2ddfcbba5f60378d706b1bc48b9636ed27abb3ced
-    icon: https://raw.githubusercontent.com/yorkie-team/yorkie-team.github.io/main/public/favicon-512x512.png
-    keywords:
-    - yorkie
-    - cluster
-    - kubernetes
-    - istio
-    kubeVersion: '>=1.24.0-0'
-    name: yorkie-delete-cli-test
-    sources:
-    - https://github.com/yorkie-team/yorkie
-    type: application
-    urls:
-    - yorkie-delete-cli-test-0.0.0.tgz
-    version: 0.0.0
-generated: "2023-05-02T19:04:08.333557+09:00"
+    - yorkie-cluster-0.0.2.tgz
+    version: 0.0.2
+generated: "2023-05-02T20:32:31.011971+09:00"
