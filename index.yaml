@@ -1,3 +1,49 @@
 apiVersion: v1
-entries: {}
-generated: "2023-05-02T18:32:18.940752+09:00"
+entries:
+  yorkie-cluster:
+  - apiVersion: v2
+    appVersion: 0.3.4
+    created: "2023-05-02T18:53:45.909696+09:00"
+    description: yorkie-cluster provides cluster mode for Yorkie server to handle
+      large amount of workloads with ensuring high availability, reliability, and
+      scalability.
+    digest: db61a01705c857707b5cafd0d4123dff558d0fa45c6cb75c5961d9d04b523870
+    icon: https://raw.githubusercontent.com/yorkie-team/yorkie-team.github.io/main/public/favicon-512x512.png
+    keywords:
+    - yorkie
+    - cluster
+    - kubernetes
+    - istio
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: susukang98@gmail.com
+      name: hackerwins
+    - email: krapi0314@gmail.com
+      name: krapie
+    - email: dkwkdnwk912@gmail.com
+      name: chacha912
+    name: yorkie-cluster
+    sources:
+    - https://github.com/yorkie-team/yorkie
+    type: application
+    urls:
+    - yorkie-cluster-0.3.4.tgz
+    version: 0.3.4
+  yorkie-delete-cli-test:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-05-02T18:53:45.912305+09:00"
+    digest: b78fa5c8f1d95d21497c8cd2ddfcbba5f60378d706b1bc48b9636ed27abb3ced
+    icon: https://raw.githubusercontent.com/yorkie-team/yorkie-team.github.io/main/public/favicon-512x512.png
+    keywords:
+    - yorkie
+    - cluster
+    - kubernetes
+    - istio
+    kubeVersion: '>=1.24.0-0'
+    name: yorkie-delete-cli-test
+    type: application
+    urls:
+    - yorkie-delete-cli-test-0.0.0.tgz
+    version: 0.0.0
+generated: "2023-05-02T18:53:45.903063+09:00"
