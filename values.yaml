@@ -9,7 +9,7 @@ yorkie:
 
   image:
     repository: yonguknaver/delete-cli
-    pullPolicy: IfNotPresent
+    pullPolicy: Always
     tag: "latest"
 
   args:
