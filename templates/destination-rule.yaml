@@ -6,7 +6,7 @@ metadata:
 spec:
   host: {{ .Values.yorkie.name }}
   trafficPolicy:
-    loadBalancer: &loadBalancer
+    loadBalancer:
       consistentHash:
         {{ if .Values.ingressGateway.consistentHash.maglev.enabled }}
         maglev:
@@ -17,6 +17,8 @@ spec:
           minimumRingSize: {{ .Values.ingressGateway.consistentHash.ringHash.minimumRingSize }}
         {{ end }}
         httpHeaderName: {{ .Values.ingressGateway.consistentHash.hashParameter }}
+        useSourceIp: true
+
     # portLevelSettings:
     #   - port:
     #       number: {{ .Values.yorkie.ports.sdkPort }}
