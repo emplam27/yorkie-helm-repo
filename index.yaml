@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   yorkie-cluster:
   - apiVersion: v2
-    appVersion: 0.0.2
-    created: "2023-05-04T11:28:50.770234+09:00"
-    digest: fd75b29aadb404ea14a6b34f7669e795047ebf2a1f04eb4ba247031dbc1b0f46
+    appVersion: 0.0.1
+    created: "2023-05-04T11:37:50.242252+09:00"
+    digest: ef32f3bcaec1d6253d5f8b22914e5b5757ff6224efa7a13efb46f1a8a68a2c02
     icon: https://raw.githubusercontent.com/yorkie-team/yorkie-team.github.io/main/public/favicon-512x512.png
     keywords:
     - yorkie
@@ -16,6 +16,6 @@ entries:
     name: yorkie-cluster
     type: application
     urls:
-    - yorkie-cluster-0.0.2.tgz
-    version: 0.0.2
-generated: "2023-05-04T11:28:50.675218+09:00"
+    - yorkie-cluster-0.0.1.tgz
+    version: 0.0.1
+generated: "2023-05-04T11:37:50.241202+09:00"

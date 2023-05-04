@@ -2,8 +2,8 @@ apiVersion: v2
 name: yorkie-cluster
 type: application
 icon: https://raw.githubusercontent.com/yorkie-team/yorkie-team.github.io/main/public/favicon-512x512.png
-version: 0.0.2
-appVersion: "0.0.2"
+version: 0.0.1
+appVersion: "0.0.1"
 kubeVersion: ">=1.24.0-0"
 
 keywords:
